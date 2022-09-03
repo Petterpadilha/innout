@@ -1,0 +1,26 @@
+body {
+    font-family: "Roboto",sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #010227;
+
+}
+.form-login {
+    flex-basis: 450px;
+}
+.card-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+
+}
+h1 {
+    text-align: center;
+}
+.text2 {
+    font-weight: bold;
+}
+
