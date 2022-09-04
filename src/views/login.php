@@ -38,8 +38,8 @@
                 </div>
             </div>
             <div class="card-footer ">
-                    <button class="btn btn-lg btn-primary">Entrar</button>
-                </div>
+            <button type="button" class="btn btn-outline-info col-12">Entrar</button>
+         </div>
         </div>
     </form>
 </body>

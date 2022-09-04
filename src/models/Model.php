@@ -27,6 +27,15 @@ class Model
     {
         $this->values[$key] = $value;
     }
+
+    # Buscando apenas um registro no banco de dados
+    public static function getOne($filters = [], $columns = '*')
+    {
+        $class = get_called_class();
+        $result = static::getResultFromSetSelect($filters, $columns);
+
+        return $result ? new $class($result->fetch_assoc()) : null;
+    }
     ## Buscando todos os registro do banco de dados
     public static function get($filters = [], $columns = '*')
     {

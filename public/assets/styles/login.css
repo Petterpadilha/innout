@@ -10,6 +10,7 @@ body {
 .form-login {
     flex-basis: 450px;
 }
+
 .card-header {
     display: flex;
     justify-content: center;
@@ -17,10 +18,10 @@ body {
     font-size: 1.4rem;
 
 }
+
 h1 {
     text-align: center;
 }
 .text2 {
     font-weight: bold;
 }
-

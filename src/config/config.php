@@ -6,4 +6,8 @@ setlocale(LC_TIME, 'pt-BR', 'pt_BR.uft-8', 'portuguese');
 # Definindo as pasta do projeto
 
 define('MODEL_PATH', realpath(dirname(__FILE__) . '/../models'));
+define('VIEW_PATH', realpath(dirname(__FILE__) . '/../views'));
+
+## Definindo os arquivos
 require_once(realpath(dirname(__FILE__) . '/database.php'));
+require_once(realpath(MODEL_PATH . '/Model.php'));
